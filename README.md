@@ -14,12 +14,12 @@ This project focuses on **Twitter Sentiment Analysis** using a dataset containin
 
 ### 1. Data Preprocessing
 
-- Loaded the dataset and checked for missing values or inconsistencies.
+- Loaded the dataset and checked for missing values.
 - Renamed columns for better readability.
 - Removed special characters, URLs, mentions (@user), and unnecessary spaces.
 - Converted text to lowercase for uniformity.
 - Removed stopwords to retain meaningful words.
-- Applied **stemming** or **lemmatization** to reduce words to their base forms.
+- Applied **stemming** to reduce words to their base forms.
 
 ### 2. Exploratory Data Analysis (EDA)
 
@@ -31,7 +31,7 @@ This project focuses on **Twitter Sentiment Analysis** using a dataset containin
 - TF-IDF Features: Converts text into numerical values based on word importance, improving model performance.
 - Sentiment Score (if applicable): Helps in understanding positive, neutral, or negative sentiments.
 - Word Count & Character Count: Useful for detecting review length patterns.
-- N-grams (Bigrams/Trigrams): Captures context by considering word sequences.
+- N-grams: Captures context by considering word sequences.
 
 ## Key Insights
 
