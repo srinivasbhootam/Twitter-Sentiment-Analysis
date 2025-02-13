@@ -27,11 +27,11 @@ This project focuses on **Twitter Sentiment Analysis** using a dataset containin
 - **N-gram Analysis:** Identified common word pairs and triplets to understand tweet structures.
 - **Sentiment Distribution:** Plotted the count of positive vs. negative tweets.
 
-### 3. Feature Engineering
-
-- **TF-IDF Vectorization:** Converted text into numerical representations to use in machine learning models.
-- Generated a TF-IDF matrix with **5000 features** to capture important words in tweets.
-- Ensured balanced feature selection to maintain model interpretability.
+### 3. Features for Modeling
+- TF-IDF Features: Converts text into numerical values based on word importance, improving model performance.
+- Sentiment Score (if applicable): Helps in understanding positive, neutral, or negative sentiments.
+- Word Count & Character Count: Useful for detecting review length patterns.
+- N-grams (Bigrams/Trigrams): Captures context by considering word sequences.
 
 ## Key Insights
 
@@ -50,6 +50,12 @@ This project focuses on **Twitter Sentiment Analysis** using a dataset containin
 1. Clone the repository.
 2. Open the provided **Jupyter Notebook** to explore the dataset and preprocessing steps.
 3. Modify or extend feature engineering techniques as needed.
+
+## Conclusion
+
+This project successfully preprocesses and explores Twitter data, transforming text into meaningful features for machine learning models. The next step involves implementing classifiers for sentiment prediction.
+
+
 
 ---
 
